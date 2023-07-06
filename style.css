@@ -71,16 +71,53 @@
 .bal{
     text-align: center;
     font-weight: bold;
+    color: white;
     font-size: 55px;
-    padding: 10px;
+    padding-top: 10px ;
+    padding-bottom: 5px;
+    background-image: url(images/background.png),linear-gradient(45deg,rgb(34, 32, 32),black);
 
 }
 .about-para{
     font-weight: 18px;
     padding: 5px;
     font-size: 18px;
-    font-weight: bold;
+    
     
     
 }
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 8px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 60px;
+
+}
+.box-btn{
+    background-color: grey;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 8px;
+}
     
+.service-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    background-image: url(images/background.png),linear-gradient(45deg,rgb(34, 32, 32),black);
+    
+}
+.ched{
+    text-align: center;
+    font-size: 55px;
+}
